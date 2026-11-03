@@ -1,0 +1,191 @@
+"use client";
+
+import { useState } from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Separator } from "@/components/ui/separator";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormMessage,
+} from "@/components/ui/form";
+import { loginWithCredentials, loginWithGoogle } from "@/actions/auth.actions";
+import { useRouter } from "next/navigation";
+import { toast } from "sonner";
+import Link from "next/link";
+import { Eye, EyeOff, Loader2 } from "lucide-react";
+
+const loginSchema = z.object({
+  email: z.string().email("Email invalide"),
+  password: z.string().min(1, "Le mot de passe est requis"),
+});
+
+type LoginForm = z.infer<typeof loginSchema>;
+
+export function LoginForm() {
+  const router = useRouter();
+  const [isLoading, setIsLoading] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
+
+  const form = useForm<LoginForm>({
+    resolver: zodResolver(loginSchema),
+    defaultValues: {
+      email: "",
+      password: "",
+    },
+  });
+
+  async function onSubmit(data: LoginForm) {
+    setIsLoading(true);
+    try {
+      const result = await loginWithCredentials({ email: data.email, password: data.password });
+      if ("success" in result && result.success) {
+        toast.success("Connexion réussie");
+        router.push("/quiz");
+      } else {
+        const errorMessage = "error" in result ? result.error : "Erreur de connexion";
+        toast.error(errorMessage);
+      }
+    } catch (error) {
+      toast.error("Une erreur est survenue");
+      console.error(error);
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
+  async function handleGoogleLogin() {
+    setIsLoading(true);
+    try {
+      await loginWithGoogle();
+    } catch (error) {
+      // NextAuth's signIn throws NEXT_REDIRECT which is expected behavior
+      if (error instanceof Error && error.message.includes('NEXT_REDIRECT')) {
+        return;
+      }
+      toast.error("Erreur de connexion avec Google");
+      console.error(error);
+      setIsLoading(false);
+    }
+  }
+
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle className="text-2xl">Connexion</CardTitle>
+        <CardDescription>
+          Entrez vos identifiants pour accéder au quiz
+        </CardDescription>
+      </CardHeader>
+      <CardContent className="space-y-4">
+        <Form {...form}>
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+            <FormField
+              control={form.control}
+              name="email"
+              render={({ field }) => (
+                <FormItem>
+                  <Label htmlFor="email">Email</Label>
+                  <FormControl>
+                    <Input
+                      id="email"
+                      type="email"
+                      placeholder="exemple@email.com"
+                      disabled={isLoading}
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <FormField
+              control={form.control}
+              name="password"
+              render={({ field }) => (
+                <FormItem>
+                  <Label htmlFor="password">Mot de passe</Label>
+                  <FormControl>
+                    <div className="relative">
+                      <Input
+                        id="password"
+                        type={showPassword ? "text" : "password"}
+                        placeholder="••••••••"
+                        disabled={isLoading}
+                        {...field}
+                      />
+                      <button
+                        type="button"
+                        onClick={() => setShowPassword(!showPassword)}
+                        className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"
+                        disabled={isLoading}
+                      >
+                        {showPassword ? (
+                          <EyeOff className="h-4 w-4" />
+                        ) : (
+                          <Eye className="h-4 w-4" />
+                        )}
+                      </button>
+                    </div>
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <Button
+              type="submit"
+              className="w-full"
+              disabled={isLoading}
+            >
+              {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+              Se connecter
+            </Button>
+          </form>
+        </Form>
+
+        <div className="relative">
+          <div className="absolute inset-0 flex items-center">
+            <Separator />
+          </div>
+          <div className="relative flex justify-center text-xs uppercase">
+            <span className="bg-background px-2 text-muted-foreground">ou</span>
+          </div>
+        </div>
+
+        <Button
+          type="button"
+          variant="outline"
+          className="w-full"
+          onClick={handleGoogleLogin}
+          disabled={isLoading}
+        >
+          {isLoading ? (
+            <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+          ) : (
+            <span className="mr-2">🔐</span>
+          )}
+          Connexion avec Google
+        </Button>
+
+        <p className="text-center text-sm text-muted-foreground">
+          Pas encore de compte?{" "}
+          <Link
+            href="/register"
+            className="font-semibold text-primary hover:underline"
+          >
+            S&apos;inscrire
+          </Link>
+        </p>
+      </CardContent>
+    </Card>
+  );
+}

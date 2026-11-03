@@ -1,0 +1,1 @@
+export default function Loading(){return <div aria-label="Chargement" aria-busy="true"><div className="p-skeleton"/><div className="p-grid" style={{marginTop:24}}><div className="p-skeleton"/><div className="p-skeleton"/></div></div>;}

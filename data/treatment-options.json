@@ -1,0 +1,242 @@
+{
+  "title": "Options de Prise en Charge Médicale",
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "pharmacie",
+      "name": "Pharmacie",
+      "subcategories": [
+        {
+          "id": "inotropes",
+          "name": "Inotropes positifs",
+          "options": [
+            {
+              "id": "inotrope-dobutamine",
+              "text": "Dobutamine"
+            },
+            {
+              "id": "inotrope-dopamine",
+              "text": "Dopamine"
+            }
+          ]
+        },
+        {
+          "id": "vasopresseurs",
+          "name": "Vasopresseurs",
+          "options": [
+            {
+              "id": "vasopresseur-noradrenaline",
+              "text": "Noradrénaline"
+            }
+          ]
+        },
+        {
+          "id": "diuretiques",
+          "name": "Diurétiques IV",
+          "options": [
+            {
+              "id": "diuretique-furosemide",
+              "text": "Furosémide"
+            }
+          ]
+        },
+        {
+          "id": "antiagregants",
+          "name": "Antiagrégants plaquettaires",
+          "options": [
+            {
+              "id": "antiagregant-aspirine",
+              "text": "Aspirine"
+            }
+          ]
+        },
+        {
+          "id": "anticoagulants",
+          "name": "Anticoagulants",
+          "options": [
+            {
+              "id": "anticoagulant-heparine",
+              "text": "Héparine"
+            }
+          ]
+        },
+        {
+          "id": "adrenaline",
+          "name": "Adrénaline",
+          "options": [
+            {
+              "id": "adrenaline-epinephrine",
+              "text": "Adrénaline (épinéphrine)"
+            }
+          ]
+        },
+        {
+          "id": "antihistaminiques",
+          "name": "Antihistaminiques H1",
+          "options": [
+            {
+              "id": "antihistaminique-chlorpheniramine",
+              "text": "Chlorphéniramine"
+            },
+            {
+              "id": "antihistaminique-dexchlorpheniramine",
+              "text": "Dexchlorphéniramine"
+            }
+          ]
+        },
+        {
+          "id": "corticosteroides",
+          "name": "Corticostéroïdes IV",
+          "options": [
+            {
+              "id": "corticosteroide-hydrocortisone",
+              "text": "Hydrocortisone"
+            },
+            {
+              "id": "corticosteroide-methylprednisolone",
+              "text": "Méthylprednisolone"
+            }
+          ]
+        },
+        {
+          "id": "bronchodilatateurs",
+          "name": "Bronchodilatateurs inhalés",
+          "options": [
+            {
+              "id": "bronchodilatateur-salbutamol",
+              "text": "Salbutamol"
+            }
+          ]
+        },
+        {
+          "id": "remplissage",
+          "name": "Solutés de remplissage vasculaire",
+          "options": [
+            {
+              "id": "remplissage-nacl",
+              "text": "NaCl 0,9%"
+            },
+            {
+              "id": "remplissage-ringer",
+              "text": "Ringer lactate"
+            },
+            {
+              "id": "remplissage-cristalloides",
+              "text": "Cristalloïdes"
+            }
+          ]
+        },
+        {
+          "id": "autres-medicaments",
+          "name": "Autres médicaments",
+          "options": [
+            {
+              "id": "med-antibiotherapie",
+              "text": "Antibiothérapie"
+            },
+            {
+              "id": "med-ipp",
+              "text": "IPP"
+            },
+            {
+              "id": "med-acide-tranexamique",
+              "text": "Acide tranexamique"
+            },
+            {
+              "id": "med-ocytocine",
+              "text": "Ocytocine"
+            },
+            {
+              "id": "med-atropine",
+              "text": "Atropine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acces-vasculaire",
+      "name": "Accès vasculaire",
+      "options": [
+        {
+          "id": "acces-vvp",
+          "text": "VVP (voies veineuses périphériques)"
+        },
+        {
+          "id": "acces-vvc",
+          "text": "VVC (voie veineuse centrale)"
+        }
+      ]
+    },
+    {
+      "id": "transfusion",
+      "name": "Transfusion sanguine",
+      "options": [
+        {
+          "id": "transfusion-culots",
+          "text": "Culots globulaires"
+        },
+        {
+          "id": "transfusion-plasma",
+          "text": "Plasma frais congelé"
+        },
+        {
+          "id": "transfusion-plaquettes",
+          "text": "Plaquettes"
+        }
+      ]
+    },
+    {
+      "id": "oxygenotherapie",
+      "name": "Oxygénothérapie",
+      "options": [
+        {
+          "id": "o2-lunettes",
+          "text": "Lunettes nasales"
+        },
+        {
+          "id": "o2-haute-concentration",
+          "text": "Oxygène à haute concentration"
+        },
+        {
+          "id": "o2-intubation",
+          "text": "Intubation endotrachéale"
+        }
+      ]
+    },
+    {
+      "id": "autres-interventions",
+      "name": "Autres interventions",
+      "options": [
+        {
+          "id": "intervention-suture",
+          "text": "Suture chirurgicale"
+        },
+        {
+          "id": "intervention-endoscopie",
+          "text": "Endoscopie digestive urgente"
+        },
+        {
+          "id": "intervention-prelevements",
+          "text": "Prélèvements bactériologiques"
+        },
+        {
+          "id": "intervention-rechauffement",
+          "text": "Réchauffement actif"
+        },
+        {
+          "id": "intervention-epuration",
+          "text": "Épuration extra-rénale"
+        },
+        {
+          "id": "intervention-chirurgie",
+          "text": "Chirurgie"
+        },
+        {
+          "id": "intervention-massage-uterin",
+          "text": "Massage utérin"
+        }
+      ]
+    }
+  ]
+}

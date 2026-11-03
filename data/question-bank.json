@@ -1,0 +1,1279 @@
+{
+  "title": "QSM Chocs - Quiz Médical",
+  "version": "1.1.0",
+  "language": "fr-FR",
+  "meta": {
+    "createdAt": "2024-12-24",
+    "notes": "Quiz médical sur les différents types de chocs. Cas cliniques regroupés par type de choc; diagnostic retiré des cas cliniques."
+  },
+  "preTest": [
+    {
+      "id": "pre-1",
+      "type": "mcq",
+      "stem": "Quelle est la cause principale du choc hémorragique?",
+      "difficulty": "facile",
+      "options": [
+        {
+          "id": "pre-1-a",
+          "text": "Défaillance cardiaque",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-1-b",
+          "text": "Perte sanguine massive",
+          "isCorrect": true,
+          "explanation": "La perte sanguine massive est la cause principale du choc hémorragique, causant une réduction du volume circulant et une hypoperfusion."
+        },
+        {
+          "id": "pre-1-c",
+          "text": "Infection sévère",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-1-d",
+          "text": "Réaction allergique",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pre-2",
+      "type": "mcq",
+      "stem": "Dans le choc anaphylactique, le traitement de première intention est :",
+      "difficulty": "facile",
+      "options": [
+        {
+          "id": "pre-2-a",
+          "text": "Corticostéroïdes",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-2-b",
+          "text": "Adrénaline IM",
+          "isCorrect": true,
+          "explanation": "L'adrénaline intramusculaire est le traitement de première intention du choc anaphylactique pour arrêter la cascade allergique et stabiliser le patient."
+        },
+        {
+          "id": "pre-2-c",
+          "text": "Antibiotiques",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-2-d",
+          "text": "Diurétiques",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pre-3",
+      "type": "mcq",
+      "stem": "Lequel des signes suivants est typique du choc septique?",
+      "difficulty": "facile",
+      "options": [
+        {
+          "id": "pre-3-a",
+          "text": "Urticaire généralisé",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-3-b",
+          "text": "Hypotension réfractaire",
+          "isCorrect": true,
+          "explanation": "L'hypotension réfractaire aux fluides est un signe typique du choc septique dû à la vasodilatation et à la dysfonction myocardique."
+        },
+        {
+          "id": "pre-3-c",
+          "text": "Œdème laryngé",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-3-d",
+          "text": "Palpitations",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pre-4",
+      "type": "mcq",
+      "stem": "La turgescence jugulaire et les crépitants pulmonaires évoquent :",
+      "difficulty": "moyen",
+      "options": [
+        {
+          "id": "pre-4-a",
+          "text": "Choc cardiogénique",
+          "isCorrect": true,
+          "explanation": "La turgescence jugulaire et les crépitants pulmonaires sont des signes de choc cardiogénique avec œdème pulmonaire cardiogénique."
+        },
+        {
+          "id": "pre-4-b",
+          "text": "Choc anaphylactique",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-4-c",
+          "text": "Choc hémorragique",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-4-d",
+          "text": "Choc septique",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pre-5",
+      "type": "mcq",
+      "stem": "Lequel des signes suivants peut apparaître dans un choc anaphylactique sévère?",
+      "difficulty": "moyen",
+      "options": [
+        {
+          "id": "pre-5-a",
+          "text": "Œdème laryngé",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-5-b",
+          "text": "Hypotension",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-5-c",
+          "text": "Dyspnée",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-5-d",
+          "text": "Tous les précédents",
+          "isCorrect": true,
+          "explanation": "Tous ces signes peuvent apparaître dans un choc anaphylactique sévère dû à la libération massive de médiateurs."
+        }
+      ]
+    },
+    {
+      "id": "pre-6",
+      "type": "mcq",
+      "stem": "Le traitement immédiat du choc cardiogénique repose sur :",
+      "difficulty": "moyen",
+      "options": [
+        {
+          "id": "pre-6-a",
+          "text": "Fluides massifs",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-6-b",
+          "text": "Inotropes et réanimation cardiaque",
+          "isCorrect": true,
+          "explanation": "Les inotropes et la réanimation cardiaque adaptée sont le traitement immédiat du choc cardiogénique."
+        },
+        {
+          "id": "pre-6-c",
+          "text": "Antibiotiques IV",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-6-d",
+          "text": "Adrénaline IM",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pre-7",
+      "type": "mcq",
+      "stem": "Dans le choc hémorragique, quelle est la mesure immédiate?",
+      "difficulty": "moyen",
+      "options": [
+        {
+          "id": "pre-7-a",
+          "text": "Adrénaline IM",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-7-b",
+          "text": "Remplissage vasculaire et contrôle de l'hémorragie",
+          "isCorrect": true,
+          "explanation": "Le remplissage vasculaire associé au contrôle de l'hémorragie est la mesure immédiate dans le choc hémorragique."
+        },
+        {
+          "id": "pre-7-c",
+          "text": "Antibiothérapie",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-7-d",
+          "text": "Oxygène uniquement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pre-8",
+      "type": "mcq",
+      "stem": "Le lactate élevé peut être un signe de :",
+      "difficulty": "difficile",
+      "options": [
+        {
+          "id": "pre-8-a",
+          "text": "Choc septique",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-8-b",
+          "text": "Choc hémorragique",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-8-c",
+          "text": "Choc cardiogénique",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-8-d",
+          "text": "Tous les types de choc",
+          "isCorrect": true,
+          "explanation": "L'hyperlactatémie est un marqueur de l'hypoxie tissulaire et peut apparaître dans tous les types de choc."
+        }
+      ]
+    },
+    {
+      "id": "pre-9",
+      "type": "mcq",
+      "stem": "La perte de conscience peut apparaître dans :",
+      "difficulty": "difficile",
+      "options": [
+        {
+          "id": "pre-9-a",
+          "text": "Choc cardiogénique sévère",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-9-b",
+          "text": "Choc anaphylactique sévère",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-9-c",
+          "text": "Choc hémorragique massif",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-9-d",
+          "text": "Tous les précédents",
+          "isCorrect": true,
+          "explanation": "La perte de conscience en cas de choc sévère reflète l'hypoperfusion cérébrale et peut survenir dans tous les types de choc sévère."
+        }
+      ]
+    },
+    {
+      "id": "pre-10",
+      "type": "mcq",
+      "stem": "Parmi les examens suivants, lequel permet d'évaluer l'insuffisance cardiaque dans le choc cardiogénique?",
+      "difficulty": "difficile",
+      "options": [
+        {
+          "id": "pre-10-a",
+          "text": "ECG et échocardiographie",
+          "isCorrect": true,
+          "explanation": "L'ECG et l'échocardiographie sont les examens clés pour évaluer l'insuffisance cardiaque dans le choc cardiogénique."
+        },
+        {
+          "id": "pre-10-b",
+          "text": "Numération leucocytaire",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-10-c",
+          "text": "Dosage IgE",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-10-d",
+          "text": "Hémogramme uniquement",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "phase-1",
+      "name": "Phase 1 - Choc hémorragique",
+      "shockType": "Choc hémorragique",
+      "cases": [
+        {
+          "id": "p1-c1",
+          "title": "Choc hémorragique - M. Yassine",
+          "patient": {
+            "name": "M. Yassine",
+            "age": 25,
+            "sex": "M",
+            "atcd": [
+              "Aucun"
+            ]
+          },
+          "motif": "Victime d'un accident de la voie publique (chute de moto). Plaie ouverte profonde de la cuisse droite avec saignement abondant.",
+          "etatGeneral": [
+            "Patient conscient, anxieux",
+            "Douleur intense au niveau de la cuisse",
+            "Pâleur cutanée",
+            "Sueurs froides"
+          ],
+          "constantesVitales": {
+            "ta": "95/60 mmHg",
+            "fc": "110 bpm",
+            "fr": "22/min",
+            "spo2": "97% à l'air ambiant",
+            "temperature": "36,8 °C"
+          },
+          "examenClinique": [
+            "Plaie hémorragique de la cuisse droite",
+            "Saignement actif",
+            "Pas de traumatisme thoracique ou abdominal",
+            "GCS : 15/15"
+          ],
+          "examensComplementaires": [
+            "Hémoglobine : 11 g/dL",
+            "Hématocrite : 34 %",
+            "Plaquettes : 210 000/mm³",
+            "TP, TCA : normaux"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-haute-concentration",
+            "acces-vvp",
+            "acces-vvc",
+            "remplissage-cristalloides",
+            "intervention-suture"
+          ]
+        },
+        {
+          "id": "p2-c1",
+          "title": "Choc hémorragique - M. Abdelkader",
+          "patient": {
+            "name": "M. Abdelkader",
+            "age": 58,
+            "sex": "M",
+            "atcd": [
+              "Hypertension artérielle",
+              "prise chronique d'AINS"
+            ]
+          },
+          "motif": "Hématémèse abondante associée à des vertiges et une asthénie intense",
+          "etatGeneral": [
+            "Altération de l'état général",
+            "Pâleur marquée",
+            "Vertiges",
+            "Soif intense"
+          ],
+          "constantesVitales": {
+            "ta": "85/50 mmHg",
+            "fc": "120 bpm",
+            "fr": "24/min",
+            "spo2": "95% sous O₂ 4 L/min",
+            "temperature": "36,4 °C"
+          },
+          "examenClinique": [
+            "Abdomen souple",
+            "Vomissements sanglants",
+            "GCS : 14/15"
+          ],
+          "examensComplementaires": [
+            "Hémoglobine : 6,8 g/dL",
+            "Hématocrite : 21 %",
+            "Plaquettes : 180 000/mm³",
+            "TP : 60 %"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-haute-concentration",
+            "acces-vvp",
+            "acces-vvc",
+            "remplissage-cristalloides",
+            "transfusion-culots",
+            "med-ipp",
+            "intervention-endoscopie"
+          ]
+        },
+        {
+          "id": "p3-c1",
+          "title": "Choc hémorragique - Mme Khadija",
+          "patient": {
+            "name": "Mme Khadija",
+            "age": 29,
+            "sex": "F",
+            "atcd": [
+              "Multipare (G4P4)"
+            ]
+          },
+          "motif": "Hémorragie massive survenue après accouchement par voie basse",
+          "etatGeneral": [
+            "Agitation",
+            "Pâleur extrême",
+            "Sueurs froides",
+            "Hypothermie"
+          ],
+          "constantesVitales": {
+            "ta": "70/40 mmHg",
+            "fc": "140 bpm",
+            "fr": "30/min",
+            "spo2": "92% sous O₂",
+            "temperature": "35,8 °C"
+          },
+          "examenClinique": [
+            "Utérus atone",
+            "Saignement vaginal abondant",
+            "GCS : 11/15"
+          ],
+          "examensComplementaires": [
+            "Hémoglobine : 5,9 g/dL",
+            "Plaquettes : 80 000/mm³",
+            "TP : 35 % ",
+            "TCA : allongé"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-haute-concentration",
+            "intervention-massage-uterin",
+            "med-ocytocine",
+            "med-acide-tranexamique",
+            "remplissage-cristalloides",
+            "transfusion-culots",
+            "transfusion-plasma"
+          ]
+        },
+        {
+          "id": "p4-c1",
+          "title": "Choc hémorragique - M. Rachid",
+          "patient": {
+            "name": "M. Rachid",
+            "age": 42,
+            "sex": "M",
+            "atcd": [
+              "Alcoolisme chronique"
+            ]
+          },
+          "motif": "Polytraumatisme suite à un accident de la voie publique",
+          "etatGeneral": [
+            "Inconscient",
+            "Marbrures",
+            "Détresse respiratoire"
+          ],
+          "constantesVitales": {
+            "ta": "60/30 mmHg",
+            "fc": "150 bpm",
+            "fr": "35/min",
+            "spo2": "88% sous O₂",
+            "temperature": "35 °C"
+          },
+          "examenClinique": [
+            "Abdomen distendu",
+            "Hémorragies multiples",
+            "GCS : 6/15"
+          ],
+          "examensComplementaires": [
+            "Hémoglobine : 4,5 g/dL",
+            "Plaquettes : 45 000/mm³",
+            "TP : 20 %",
+            "Lactates élevés"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-intubation",
+            "transfusion-culots",
+            "intervention-rechauffement",
+            "intervention-chirurgie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-2",
+      "name": "Phase 2 - Choc septique",
+      "shockType": "Choc septique",
+      "cases": [
+        {
+          "id": "p1-c2",
+          "title": "Choc septique - Mme Amina",
+          "patient": {
+            "name": "Mme Amina",
+            "age": 45,
+            "sex": "F",
+            "atcd": [
+              "Diabète type 2"
+            ]
+          },
+          "motif": "Fièvre et brûlures mictionnelles",
+          "etatGeneral": [
+            "Fièvre",
+            "Frissons",
+            "Asthénie"
+          ],
+          "constantesVitales": {
+            "ta": "100/65 mmHg",
+            "fc": "105 bpm",
+            "fr": "22/min",
+            "spo2": "98% AA",
+            "temperature": "39,2 °C"
+          },
+          "examenClinique": [],
+          "examensComplementaires": [
+            "Leucocytes : 15 500/mm³",
+            "CRP : 120 mg/L"
+          ],
+          "priseEnChargeCorrectIds": [
+            "intervention-prelevements",
+            "med-antibiotherapie",
+            "remplissage-cristalloides"
+          ]
+        },
+        {
+          "id": "p2-c2",
+          "title": "Choc septique - M. Hamid",
+          "patient": {
+            "name": "M. Hamid",
+            "age": 67,
+            "sex": "M",
+            "atcd": [
+              "BPCO",
+              "tabagisme chronique"
+            ]
+          },
+          "motif": "Dyspnée aiguë, fièvre élevée et toux productive verdâtre",
+          "etatGeneral": [
+            "Altération de l'état général",
+            "Confusion légère",
+            "Cyanose périphérique"
+          ],
+          "constantesVitales": {
+            "ta": "85/55 mmHg",
+            "fc": "120 bpm",
+            "fr": "30/min",
+            "spo2": "90% sous O₂ 6 L/min",
+            "temperature": "39,5 °C"
+          },
+          "examenClinique": [
+            "Crépitants à la base pulmonaire droite",
+            "Tirage intercostal",
+            "GCS : 13/15"
+          ],
+          "examensComplementaires": [
+            "Leucocytes : 18 000/mm³",
+            "CRP : 180 mg/L",
+            "Lactates : 3,2 mmol/L",
+            "Gaz du sang : hypoxémie",
+            "Radiographie thoracique : foyer alvéolaire droit"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-haute-concentration",
+            "acces-vvp",
+            "acces-vvc",
+            "remplissage-cristalloides",
+            "med-antibiotherapie",
+            "intervention-prelevements"
+          ]
+        },
+        {
+          "id": "p3-c2",
+          "title": "Choc septique - Mme Naima",
+          "patient": {
+            "name": "Mme Naima",
+            "age": 52,
+            "sex": "F",
+            "atcd": [
+              "Appendicectomie ancienne"
+            ]
+          },
+          "motif": "Douleurs abdominales diffuses, fièvre et vomissements depuis 48 h",
+          "etatGeneral": [
+            "Confusion",
+            "Marbrures",
+            "Sueurs froides",
+            "Oligurie"
+          ],
+          "constantesVitales": {
+            "ta": "75/45 mmHg",
+            "fc": "135 bpm",
+            "fr": "32/min",
+            "spo2": "93% sous O₂",
+            "temperature": "38,9 °C"
+          },
+          "examenClinique": [
+            "Abdomen distendu",
+            "Défense abdominale généralisée",
+            "GCS : 11/15"
+          ],
+          "examensComplementaires": [
+            "Leucocytes : 21 000/mm³",
+            "CRP : 260 mg/L",
+            "Lactates : 4,8 mmol/L",
+            "Créatinine : augmentée",
+            "Scanner abdominal : péritonite"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-haute-concentration",
+            "remplissage-cristalloides",
+            "med-antibiotherapie",
+            "vasopresseur-noradrenaline",
+            "intervention-chirurgie"
+          ]
+        },
+        {
+          "id": "p4-c2",
+          "title": "Choc septique - M. Karim",
+          "patient": {
+            "name": "M. Karim",
+            "age": 60,
+            "sex": "M",
+            "atcd": [
+              "Insuffisance rénale chronique",
+              "hypertension artérielle"
+            ]
+          },
+          "motif": "Fièvre, troubles de la conscience et hypotension persistante",
+          "etatGeneral": [
+            "Coma",
+            "Marbrures étendues",
+            "Détresse respiratoire",
+            "Oligo-anurie"
+          ],
+          "constantesVitales": {
+            "ta": "65/35 mmHg",
+            "fc": "145 bpm",
+            "fr": "34/min",
+            "spo2": "88% sous O₂",
+            "temperature": "38,2 °C"
+          },
+          "examenClinique": [
+            "GCS : 7/15",
+            "Crépitants pulmonaires diffus",
+            "Œdèmes périphériques"
+          ],
+          "examensComplementaires": [
+            "Leucocytes : 25 000/mm³",
+            "CRP : 320 mg/L",
+            "Lactates : 6,5 mmol/L",
+            "pH : 7,18",
+            "Créatinine : très élevée",
+            "TP : abaissé"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-intubation",
+            "vasopresseur-noradrenaline",
+            "med-antibiotherapie",
+            "intervention-epuration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-3",
+      "name": "Phase 3 - Choc anaphylactique",
+      "shockType": "Choc anaphylactique",
+      "cases": [
+        {
+          "id": "p1-c3",
+          "title": "Choc anaphylactique - Mme Salma",
+          "patient": {
+            "name": "Mme Salma",
+            "age": 25,
+            "sex": "F",
+            "atcd": [
+              "Asthme modéré"
+            ]
+          },
+          "motif": "Œdème des lèvres et démangeaisons après piqûre d'abeille",
+          "etatGeneral": [
+            "Agitation",
+            "Urticaire généralisé"
+          ],
+          "constantesVitales": {
+            "ta": "105/70 mmHg",
+            "fc": "95 bpm",
+            "fr": "18/min",
+            "spo2": "96%"
+          },
+          "examenClinique": [
+            "Érythème et urticaire généralisés",
+            "Gorge normale"
+          ],
+          "examensComplementaires": [
+            "Aucun examen nécessaire initialement"
+          ],
+          "priseEnChargeCorrectIds": [
+            "adrenaline-epinephrine",
+            "antihistaminique-chlorpheniramine"
+          ]
+        },
+        {
+          "id": "p2-c3",
+          "title": "Choc anaphylactique - M. Rachid",
+          "patient": {
+            "name": "M. Rachid",
+            "age": 40,
+            "sex": "M",
+            "atcd": [
+              "Allergie aux fruits de mer"
+            ]
+          },
+          "motif": "Difficulté à respirer après ingestion de crevettes",
+          "etatGeneral": [
+            "Dyspnée",
+            "Agitation"
+          ],
+          "constantesVitales": {
+            "ta": "90/60 mmHg",
+            "fc": "110 bpm",
+            "fr": "26/min",
+            "spo2": "91%"
+          },
+          "examenClinique": [
+            "Œdème facial",
+            "Stridor",
+            "Urticaire"
+          ],
+          "examensComplementaires": [
+            "Saturation basse, pas d'autres examens initiaux"
+          ],
+          "priseEnChargeCorrectIds": [
+            "adrenaline-epinephrine",
+            "o2-haute-concentration",
+            "corticosteroide-hydrocortisone"
+          ]
+        },
+        {
+          "id": "p3-c3",
+          "title": "Choc anaphylactique - Mme Leila",
+          "patient": {
+            "name": "Mme Leila",
+            "age": 55,
+            "sex": "F",
+            "atcd": [
+              "HTA",
+              "asthme"
+            ]
+          },
+          "motif": "Chute de TA et difficultés respiratoires après injection médicamenteuse",
+          "etatGeneral": [
+            "Collapsus",
+            "Sueurs",
+            "Agitation"
+          ],
+          "constantesVitales": {
+            "ta": "70/40 mmHg",
+            "fc": "130 bpm",
+            "fr": "28/min",
+            "spo2": "85%"
+          },
+          "examenClinique": [
+            "Œdème laryngé",
+            "Urticaire étendu",
+            "Tachypnée"
+          ],
+          "examensComplementaires": [
+            "Gaz du sang : hypoxémie",
+            "Lactates légèrement élevés"
+          ],
+          "priseEnChargeCorrectIds": [
+            "adrenaline-epinephrine",
+            "remplissage-nacl",
+            "o2-haute-concentration"
+          ]
+        },
+        {
+          "id": "p4-c3",
+          "title": "Choc anaphylactique - M. Youssef",
+          "patient": {
+            "name": "M. Youssef",
+            "age": 65,
+            "sex": "M",
+            "atcd": [
+              "Diabète",
+              "BPCO"
+            ]
+          },
+          "motif": "Perte de conscience après administration d'un antibiotique IV",
+          "etatGeneral": [
+            "Coma",
+            "Cyanose",
+            "Collapsus"
+          ],
+          "constantesVitales": {
+            "ta": "50/30 mmHg",
+            "fc": "145 bpm",
+            "fr": "32/min",
+            "spo2": "75%"
+          },
+          "examenClinique": [
+            "Œdème facial et laryngé massif",
+            "Urticaire",
+            "Détresse respiratoire sévère"
+          ],
+          "examensComplementaires": [
+            "Lactates : 7 mmol/L",
+            "pH : 7,12",
+            "Hypoxémie sévère"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-intubation",
+            "adrenaline-epinephrine",
+            "remplissage-cristalloides",
+            "vasopresseur-noradrenaline",
+            "corticosteroide-hydrocortisone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-4",
+      "name": "Phase 4 - Choc cardiogénique",
+      "shockType": "Choc cardiogénique",
+      "cases": [
+        {
+          "id": "p1-c4",
+          "title": "Choc cardiogénique - Mme Amina",
+          "patient": {
+            "name": "Mme Amina",
+            "age": 60,
+            "sex": "F",
+            "atcd": [
+              "Hypertension artérielle"
+            ]
+          },
+          "motif": "Dyspnée légère et fatigue après effort",
+          "etatGeneral": [
+            "Agitation légère",
+            "Palpitations"
+          ],
+          "constantesVitales": {
+            "ta": "95/60 mmHg",
+            "fc": "105 bpm",
+            "fr": "20/min",
+            "spo2": "93%"
+          },
+          "examenClinique": [
+            "Turgescence jugulaire légère",
+            "Crépitants pulmonaires discrets"
+          ],
+          "examensComplementaires": [
+            "ECG : tachycardie sinusale",
+            "BNP légèrement augmenté"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-haute-concentration"
+          ]
+        },
+        {
+          "id": "p2-c4",
+          "title": "Choc cardiogénique - M. Samir",
+          "patient": {
+            "name": "M. Samir",
+            "age": 68,
+            "sex": "M",
+            "atcd": [
+              "Infarctus du myocarde ancien"
+            ]
+          },
+          "motif": "Dyspnée progressive, fatigue et hypotension",
+          "etatGeneral": [
+            "Agitation",
+            "Cyanose périphérique"
+          ],
+          "constantesVitales": {
+            "ta": "85/55 mmHg",
+            "fc": "120 bpm",
+            "fr": "24/min",
+            "spo2": "88%"
+          },
+          "examenClinique": [
+            "Turgescence jugulaire",
+            "Crépitants pulmonaires modérés",
+            "Oedème périphérique"
+          ],
+          "examensComplementaires": [
+            "ECG : anomalies ischémiques",
+            "BNP élevé",
+            "Echocardiographie : FEVG réduite"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-haute-concentration",
+            "inotrope-dobutamine"
+          ]
+        },
+        {
+          "id": "p3-c4",
+          "title": "Choc cardiogénique - Mme Nadia",
+          "patient": {
+            "name": "Mme Nadia",
+            "age": 72,
+            "sex": "F",
+            "atcd": [
+              "Cardiopathie ischémique",
+              "diabète"
+            ]
+          },
+          "motif": "Dyspnée sévère, hypotension et sueurs froides",
+          "etatGeneral": [
+            "Agitation sévère",
+            "Cyanose",
+            "Extrémités froides"
+          ],
+          "constantesVitales": {
+            "ta": "70/45 mmHg",
+            "fc": "130 bpm",
+            "fr": "28/min",
+            "spo2": "82%"
+          },
+          "examenClinique": [
+            "Turgescence jugulaire",
+            "Crépitants pulmonaires étendus",
+            "Oedèmes périphériques importants"
+          ],
+          "examensComplementaires": [
+            "ECG : sus-décalage ST",
+            "BNP très élevé",
+            "Echocardiographie : FEVG < 25 %"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-haute-concentration",
+            "o2-intubation",
+            "inotrope-dobutamine",
+            "vasopresseur-noradrenaline"
+          ]
+        },
+        {
+          "id": "p4-c4",
+          "title": "Choc cardiogénique - M. Hassan",
+          "patient": {
+            "name": "M. Hassan",
+            "age": 75,
+            "sex": "M",
+            "atcd": [
+              "Infarctus ancien",
+              "insuffisance cardiaque chronique"
+            ]
+          },
+          "motif": "Perte de conscience, hypotension sévère, dyspnée extrême",
+          "etatGeneral": [
+            "Coma",
+            "Cyanose généralisée",
+            "Extrémités froides"
+          ],
+          "constantesVitales": {
+            "ta": "50/30 mmHg",
+            "fc": "150 bpm",
+            "fr": "35/min",
+            "spo2": "70%"
+          },
+          "examenClinique": [
+            "Turgescence jugulaire massive",
+            "Crépitants pulmonaires diffus",
+            "Oedèmes périphériques sévères"
+          ],
+          "examensComplementaires": [
+            "ECG : infarctus étendu",
+            "Echocardiographie : FEVG < 20 %",
+            "Lactates : 8 mmol/L"
+          ],
+          "priseEnChargeCorrectIds": [
+            "o2-intubation",
+            "o2-haute-concentration",
+            "inotrope-dobutamine",
+            "vasopresseur-noradrenaline"
+          ]
+        }
+      ]
+    }
+  ],
+  "postTest": [
+    {
+      "id": "pre-1",
+      "type": "mcq",
+      "stem": "Quelle est la principale cause de survenue d'un choc hémorragique ?",
+      "difficulty": "facile",
+      "options": [
+        {
+          "id": "pre-1-a",
+          "text": "Défaillance cardiaque",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-1-b",
+          "text": "Perte sanguine massive",
+          "isCorrect": true,
+          "explanation": "La perte sanguine massive est la cause principale du choc hémorragique, causant une réduction du volume circulant et une hypoperfusion."
+        },
+        {
+          "id": "pre-1-c",
+          "text": "Infection sévère",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-1-d",
+          "text": "Réaction allergique",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "pre-2",
+      "type": "mcq",
+      "stem": "Quel est le traitement de première intention à administrer en cas de choc anaphylactique ?",
+      "difficulty": "facile",
+      "options": [
+        {
+          "id": "pre-2-a",
+          "text": "Corticostéroïdes",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-2-b",
+          "text": "Adrénaline IM",
+          "isCorrect": true,
+          "explanation": "L'adrénaline intramusculaire est le traitement de première intention du choc anaphylactique pour arrêter la cascade allergique et stabiliser le patient."
+        },
+        {
+          "id": "pre-2-c",
+          "text": "Antibiotiques",
+          "isCorrect": false
+        },
+        {
+          "id": "pre-2-d",
+          "text": "Diurétiques",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "post-3",
+      "type": "mcq",
+      "stem": "Parmi les signes cliniques suivants, lequel est caractéristique d'un choc septique ?",
+      "difficulty": "facile",
+      "options": [
+        {
+          "id": "post-3-a",
+          "text": "Urticaire généralisé",
+          "isCorrect": false
+        },
+        {
+          "id": "post-3-b",
+          "text": "Hypotension réfractaire",
+          "isCorrect": true,
+          "explanation": "L'hypotension réfractaire aux fluides est un signe typique du choc septique dû à la vasodilatation et à la dysfonction myocardique."
+        },
+        {
+          "id": "post-3-c",
+          "text": "Œdème laryngé",
+          "isCorrect": false
+        },
+        {
+          "id": "post-3-d",
+          "text": "Palpitations",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "post-4",
+      "type": "mcq",
+      "stem": "La présence d'une turgescence jugulaire associée à des crépitants pulmonaires évoque principalement quel type de choc ?",
+      "difficulty": "moyen",
+      "options": [
+        {
+          "id": "post-4-a",
+          "text": "Choc cardiogénique",
+          "isCorrect": true,
+          "explanation": "La turgescence jugulaire et les crépitants pulmonaires sont des signes de choc cardiogénique avec œdème pulmonaire cardiogénique."
+        },
+        {
+          "id": "post-4-b",
+          "text": "Choc anaphylactique",
+          "isCorrect": false
+        },
+        {
+          "id": "post-4-c",
+          "text": "Choc hémorragique",
+          "isCorrect": false
+        },
+        {
+          "id": "post-4-d",
+          "text": "Choc septique",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "post-5",
+      "type": "mcq",
+      "stem": "Parmi les manifestations cliniques suivantes, laquelle peut être observée lors d'un choc anaphylactique sévère ?",
+      "difficulty": "moyen",
+      "options": [
+        {
+          "id": "post-5-a",
+          "text": "Œdème laryngé",
+          "isCorrect": false
+        },
+        {
+          "id": "post-5-b",
+          "text": "Hypotension",
+          "isCorrect": false
+        },
+        {
+          "id": "post-5-c",
+          "text": "Dyspnée",
+          "isCorrect": false
+        },
+        {
+          "id": "post-5-d",
+          "text": "Tous les précédents",
+          "isCorrect": true,
+          "explanation": "Tous ces signes peuvent apparaître dans un choc anaphylactique sévère dû à la libération massive de médiateurs."
+        }
+      ]
+    },
+    {
+      "id": "post-6",
+      "type": "mcq",
+      "stem": "Sur quelle mesure thérapeutique repose la prise en charge immédiate d'un choc cardiogénique ?",
+      "difficulty": "moyen",
+      "options": [
+        {
+          "id": "post-6-a",
+          "text": "Fluides massifs",
+          "isCorrect": false
+        },
+        {
+          "id": "post-6-b",
+          "text": "Inotropes et réanimation cardiaque",
+          "isCorrect": true,
+          "explanation": "Les inotropes et la réanimation cardiaque adaptée sont le traitement immédiat du choc cardiogénique."
+        },
+        {
+          "id": "post-6-c",
+          "text": "Antibiotiques IV",
+          "isCorrect": false
+        },
+        {
+          "id": "post-6-d",
+          "text": "Adrénaline IM",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "post-7",
+      "type": "mcq",
+      "stem": "Quelle est la mesure prioritaire à mettre en œuvre devant un patient présentant un choc hémorragique ?",
+      "difficulty": "moyen",
+      "options": [
+        {
+          "id": "post-7-a",
+          "text": "Adrénaline IM",
+          "isCorrect": false
+        },
+        {
+          "id": "post-7-b",
+          "text": "Remplissage vasculaire et contrôle de l'hémorragie",
+          "isCorrect": true,
+          "explanation": "Le remplissage vasculaire associé au contrôle de l'hémorragie est la mesure immédiate dans le choc hémorragique."
+        },
+        {
+          "id": "post-7-c",
+          "text": "Antibiothérapie",
+          "isCorrect": false
+        },
+        {
+          "id": "post-7-d",
+          "text": "Oxygène uniquement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "post-8",
+      "type": "mcq",
+      "stem": "Une élévation du taux de lactate sanguin peut être le signe de quelle anomalie physiopathologique ?",
+      "difficulty": "difficile",
+      "options": [
+        {
+          "id": "post-8-a",
+          "text": "Choc septique",
+          "isCorrect": false
+        },
+        {
+          "id": "post-8-b",
+          "text": "Choc hémorragique",
+          "isCorrect": false
+        },
+        {
+          "id": "post-8-c",
+          "text": "Choc cardiogénique",
+          "isCorrect": false
+        },
+        {
+          "id": "post-8-d",
+          "text": "Tous les types de choc",
+          "isCorrect": true,
+          "explanation": "L'hyperlactatémie est un marqueur de l'hypoxie tissulaire et peut apparaître dans tous les types de choc."
+        }
+      ]
+    },
+    {
+      "id": "post-9",
+      "type": "mcq",
+      "stem": "Dans quelles circonstances une perte de conscience peut-elle survenir chez un patient en état de choc ?",
+      "difficulty": "difficile",
+      "options": [
+        {
+          "id": "post-9-a",
+          "text": "Choc cardiogénique sévère",
+          "isCorrect": false
+        },
+        {
+          "id": "post-9-b",
+          "text": "Choc anaphylactique sévère",
+          "isCorrect": false
+        },
+        {
+          "id": "post-9-c",
+          "text": "Choc hémorragique massif",
+          "isCorrect": false
+        },
+        {
+          "id": "post-9-d",
+          "text": "Tous les précédents",
+          "isCorrect": true,
+          "explanation": "La perte de conscience en cas de choc sévère reflète l'hypoperfusion cérébrale et peut survenir dans tous les types de choc sévère."
+        }
+      ]
+    },
+    {
+      "id": "post-10",
+      "type": "mcq",
+      "stem": "Parmi les examens complémentaires suivants, lequel permet d'évaluer la fonction cardiaque chez un patient présentant un choc cardiogénique ?",
+      "difficulty": "difficile",
+      "options": [
+        {
+          "id": "post-10-a",
+          "text": "ECG et échocardiographie",
+          "isCorrect": true,
+          "explanation": "L'ECG et l'échocardiographie sont les examens clés pour évaluer l'insuffisance cardiaque dans le choc cardiogénique."
+        },
+        {
+          "id": "post-10-b",
+          "text": "Numération leucocytaire",
+          "isCorrect": false
+        },
+        {
+          "id": "post-10-c",
+          "text": "Dosage IgE",
+          "isCorrect": false
+        },
+        {
+          "id": "post-10-d",
+          "text": "Hémogramme uniquement",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
